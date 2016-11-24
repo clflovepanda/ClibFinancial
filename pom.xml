@@ -39,13 +39,10 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>2.6</version>
-                    <configuration>
-                        <!--<webappDirectory>/usr/share/tomcat6/webapps</webappDirectory>-->
+                    <!--<configuration>-->
+                        <!--<webXml>/var/lib/jenkins/workspace/clibchina_financial/target/${project.version}/WEB-INF/web.xml</webXml>-->
                         <!--<warSourceDirectory>/usr/share/tomcat6/webapps</warSourceDirectory>-->
-                        <webXml>/usr/share/tomcat6/webapps\WEB-INF\web.xml</webXml>
-                        <!--指定jsp、js、css的路劲  -->
-                        <warSourceDirectory>/usr/share/tomcat6/webapps</warSourceDirectory>
-                    </configuration>
+                    <!--</configuration>-->
                 </plugin>
                 <plugin>
                     <groupId>org.mortbay.jetty</groupId>
