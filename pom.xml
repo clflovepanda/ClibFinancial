@@ -6,6 +6,7 @@
 
     <groupId>clibchina</groupId>
     <artifactId>ClibFinancial</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
