@@ -27,7 +27,7 @@ public class IndexController {
     public Map<String, Object> index() {
         System.out.println("lalalala");
         Map<String, Object> result = new HashMap<>();
-        result.put("status", "ok");
+        result.put("status", "ok2");
         return result;
     }
 
