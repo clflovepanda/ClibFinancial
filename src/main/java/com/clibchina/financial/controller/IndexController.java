@@ -22,7 +22,7 @@ public class IndexController {
         return result;
     }
 
-    @RequestMapping(value = "")
+    @RequestMapping(value = "/")
     @ResponseBody
     public Map<String, Object> index() {
         System.out.println("lalalala");
