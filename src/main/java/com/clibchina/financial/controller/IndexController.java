@@ -15,6 +15,15 @@ public class IndexController {
 
     @RequestMapping(value = "test")
     @ResponseBody
+    public Map<String, Object> test() {
+        System.out.println("lalalala");
+        Map<String, Object> result = new HashMap<>();
+        result.put("status", "ok");
+        return result;
+    }
+
+    @RequestMapping(value = "")
+    @ResponseBody
     public Map<String, Object> index() {
         System.out.println("lalalala");
         Map<String, Object> result = new HashMap<>();
