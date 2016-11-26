@@ -16,8 +16,8 @@
 
         <property name="velocityProperties">
             <props>
-                <prop key="input.encoding">utf-8</prop>
-                <prop key="output.encoding">utf-8</prop>
+                <prop key="input.encoding">gbk</prop>
+                <prop key="output.encoding">gbk</prop>
                 <prop key="directive.foreach.counter.name">loopCounter</prop>
                 <prop key="directive.foreach.counter.initial.value">0</prop>
                 <!--<prop key="velocimacro.library.autoreload">true</prop>-->
@@ -30,15 +30,13 @@
         <property name="suffix">
             <value>.vm</value>
         </property>
+        <property name="contentType"><value>text/html;charset=UTF-8</value></property>
         <property name="prefix" value=""/>
         <property name="cache" value="false"/>
         <property name="toolboxConfigLocation" value="/WEB-INF/classes/tools.xml"></property>
         <property name="exposeSpringMacroHelpers" value="true"/>
         <property name="viewClass" value="com.clibchina.financial.tools.VelocityToolbox20View" />
         <property name="order" value="0"/>
-        <property name="contentType">
-            <value>text/html;charset=utf-8</value>
-        </property>
         <property name="dateToolAttribute"><value>dateTool</value></property>
         <property name="numberToolAttribute"><value>numberTool</value></property>
         <property name="requestContextAttribute" value="rc"></property>

@@ -1,0 +1,65 @@
+<aside>
+    <div id="sidebar"  class="nav-collapse">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu">
+            <li class="active">
+                <a class="" href="/">
+                    <i class="icon-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="#" class="">
+                    <i class="icon-book"></i>
+                    <span>贵金属信息 <span style="color:#FF6C60">(暂未开通)</span></span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="#" class="">
+                    <i class="icon-cogs"></i>
+                    <span>期货信息 <span style="color:#FF6C60">(暂未开通)</span></span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="#" class="">
+                    <i class="icon-tasks"></i>
+                    <span>股市信息 <span style="color:#FF6C60">(暂未开通)</span></span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="#" class="">
+                    <i class="icon-th"></i>
+                    <span>讨论区 <span style="color:#FF6C60">(暂未开通)</span></span>
+                </a>
+            </li>
+            <!--<li>-->
+                <!--<a class="" href="inbox.html">-->
+                    <!--<i class="icon-envelope"></i>-->
+                    <!--<span>Mail </span>-->
+                    <!--<span class="label label-danger pull-right mail-info">2</span>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="sub-menu">-->
+                <!--<a href="javascript:;" class="">-->
+                    <!--<i class="icon-glass"></i>-->
+                    <!--<span>Extra</span>-->
+                    <!--<span class="arrow"></span>-->
+                <!--</a>-->
+                <!--<ul class="sub">-->
+                    <!--<li><a class="" href="blank.html">Blank Page</a></li>-->
+                    <!--<li><a class="" href="profile.html">Profile</a></li>-->
+                    <!--<li><a class="" href="invoice.html">Invoice</a></li>-->
+                    <!--<li><a class="" href="404.html">404 Error</a></li>-->
+                    <!--<li><a class="" href="500.html">500 Error</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a class="" href="login.html">-->
+                    <!--<i class="icon-user"></i>-->
+                    <!--<span>Login Page</span>-->
+                <!--</a>-->
+            <!--</li>-->
+        </ul>
+        <!-- sidebar menu end-->
+    </div>
+</aside>
